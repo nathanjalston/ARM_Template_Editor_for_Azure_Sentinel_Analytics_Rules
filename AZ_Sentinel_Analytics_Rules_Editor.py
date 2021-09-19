@@ -57,7 +57,7 @@ def modify(data, properties):
             
             if name == "queryFrequency" or name == "queryPeriod":
                 try:
-                    time_val = input("\n" + val_dict[name]["Selection"][user_val] + " as a positive integer greater than 0:\n*** Example Input: 30 ***\n\nEnter value here: ").replace("-","")
+                    time_val = input("\n" + val_dict[name]["Selection"][user_val] + " as a positive integer:\n*** Example Input: 30 ***\n\nEnter value here: ").replace("-","")
                     test2 = int(time_val)
                 except ValueError:
                     print("\nYour Input \"" + time_val + "\" is not valid.\nThe value you entered is not an integer.\nPlease try again.\n")

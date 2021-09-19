@@ -1,4 +1,4 @@
-# Azure Sentinel Hackathon 2021
+# [Azure Sentinel Hackathon 2021](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021)
 **Azure Resource Manager (ARM) Templates for Bulk Activation of Azure Sentinel Analytics Rules.**
 ___
 ## [Azure Sentinel Analytics Rules: ARM Template Editor](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/AZ_Sentinel_Analytics_Rules_Editor.py)

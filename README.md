@@ -1,7 +1,7 @@
 # Azure Sentinel Hackathon 2021
 **Modify Azure Resource Manager (ARM) Templates for Bulk Modification and Activation of Azure Sentinel Analytics Rules.**
 ___
-## [AZ Sentinel Analytics Rules Template Editor](https://github.com/MSSAPSCA1/Azure_Sentinel/blob/main/AZ_Sentinel_Analytics_Rules_Editor.py)
+## [AZ Sentinel Analytics Rules Template Editor](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/AZ_Sentinel_Analytics_Rules_Editor.py)
 
 Python script to modify properties of Azure Resource Manager (ARM) templates for bulk modification of Azure Sentinel Analytics Rules.
 

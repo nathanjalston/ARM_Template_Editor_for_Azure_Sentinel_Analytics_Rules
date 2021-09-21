@@ -1,12 +1,18 @@
 # [Azure Sentinel Hackathon 2021](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021)
 **Azure Resource Manager (ARM) Templates and ARM Template Editor for Bulk Activation and Modification of Azure Sentinel Analytics Rules.**
 ___
-## [Default ARM Templates](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/tree/main/Default_AZ_Sentinel_Rule_Templates)
+## [ARM Templates for Default Analytics Rules](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/tree/main/Default_AZ_Sentinel_Rule_Templates)
 
-Default ARM templates for specific sets of Azure Sentinel Analytics Rules, including:
+ARM templates for specific sets of default Azure Sentinel Analytics Rules, including:
 
 *  [TI Map](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/Default_AZ_Sentinel_Rule_Templates/TI_Map_AZ_Sentinel_Analytics_Rules.json)
 *  [Vectra Detection and AI Detection](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/Default_AZ_Sentinel_Rule_Templates/Vectra_Detect_AZ_Sentinel_Analytics_Rules.json)
+___
+## [ARM Templates for Quick Response Analytics Rules]()
+
+Modified ARM templates for specific sets of high frequency Azure Sentinel Analytics Rules, including:
+
+* [Placeholder]()
 ___
 ## [ARM Template Editor](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/AZ_Sentinel_Analytics_Rules_Editor.py)
 

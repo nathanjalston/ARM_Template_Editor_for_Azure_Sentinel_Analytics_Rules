@@ -11,7 +11,7 @@ ARM templates for specific sets of default Azure Sentinel Analytics Rules.
 *  [TI Map](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/Default_AZ_Sentinel_Rule_Templates/TI_Map_AZ_Sentinel_Analytics_Rules.json)
 *  [Vectra Detection and AI Detection](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/Default_AZ_Sentinel_Rule_Templates/Vectra_Detect_AZ_Sentinel_Analytics_Rules.json)
 ___
-## [ARM Templates for Quick Response Analytics Rules]()
+## [ARM Templates for Quick Response Analytics Rules](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/tree/main/Quick_Response_AZ_Sentinel_Rule_Templates)
 
 Modified ARM templates for specific sets of high frequency Azure Sentinel Analytics Rules. 
 * Rule Frequency = 10 minutes
@@ -19,7 +19,7 @@ Modified ARM templates for specific sets of high frequency Azure Sentinel Analyt
 
 ### Analytics Rules:
 * [TI Map]()
-* [Vectra Detection and AI Detection]()
+* [Vectra Detection and AI Detection](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/Quick_Response_AZ_Sentinel_Rule_Templates/QR_Vectra_Detect_AZ_Sentinel_Analytics_Rules.json)
 ___
 ## [ARM Template Editor for Analytics Rules](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/AZ_Sentinel_Analytics_Rules_Editor.py)
 

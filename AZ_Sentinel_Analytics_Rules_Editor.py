@@ -6,7 +6,7 @@ def sel_files():
     while test == True:
         test = False
         
-        path = (input("Enter the file path of Azure Resource Manager templates, for Azure Sentinel Analytics Rules, each separated by a comma (CTRL+C to Exit):\n")).split(",")
+        path = (input("Enter the file path(s) of Azure Sentinel Analytics Rules ARM Templates.\nSeparate file paths by using a comma (,). (CTRL+C to Exit):\n")).split(",")
 
         for file in path:
             if file.split(".")[-1] != "json":

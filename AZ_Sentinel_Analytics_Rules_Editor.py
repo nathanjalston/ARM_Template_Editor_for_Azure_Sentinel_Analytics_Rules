@@ -6,10 +6,11 @@ def sel_files():
     while test == True:
         test = False
         
-        path = (input("Enter the file path(s) of Azure Sentinel Analytics Rules ARM Templates.\nSeparate each file path by using a comma (,). (CTRL+C to Exit):\n")).replace("'","").replace('"','').replace("&","").split(",")
-        path = [file.strip() for file in path]
+        path = (input("Enter the file path(s) of Azure Sentinel Analytics Rules ARM Templates.\nSeparate each file path by using a comma (,). (CTRL+C to Exit):\n")).replace("'","").replace('"','').replace("& ","").split(",")
 
         for file in path:
+            file = file.strip()
+            print(file)
             if file.split(".")[-1] != "json":
                 print("\nIncorrect file type. Please try again.")
                 test = True
@@ -73,8 +74,7 @@ def sel_vals(properties):
                 val = val.replace("_", time_val)
 
                 if time_val == "1":
-                    time_type = val_dict[name]["Selection"][user_val].split(" ")[-1]
-                    time_type = time_type.replace("s", "")
+                    time_type = val_dict[name]["Selection"][user_val].split(" ")[-1].replace("s", "")
                 else:
                     time_type = val_dict[name]["Selection"][user_val].split(" ")[-1]
 

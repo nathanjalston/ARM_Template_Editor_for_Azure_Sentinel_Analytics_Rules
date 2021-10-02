@@ -1,5 +1,8 @@
 # [ARM Template Editor for Azure Sentinel Analytics Rules](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021)
 **Azure Resource Manager (ARM) Template Editor for Bulk Modification of Azure Sentinel Analytics Rules.**
+* Submitted as part of [AzureSentinel Hackathon 2021 - MSSA-PSCA1](https://devpost.com/software/mssa-psca1)
+* [MSSA-PSCA1 GitHub](https://github.com/MSSAPSCA1/Azure_Sentinel)
+* [Demo Video](https://youtu.be/f0YaSqNwJCM)
 ___
 
 ## [ARM Template Editor](https://github.com/nathanjalston/Azure_Sentinel_Hackathon_2021/blob/main/AZ_Sentinel_Analytics_Rules_Editor.py)
